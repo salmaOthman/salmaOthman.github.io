@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(242, 233, 231);
+    font-family: cursive,'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo { /*this and...T*/ 
+    margin: 0px;
+    padding: 8px;
+    font-family:fantasy;
+    box-shadow: 10px 10px 10px 3px rgb(186, 173, 158);
+    width:16%;
+    border-radius: 10px;
+    background-color: rgba(212, 168, 168, 0.595);
+    color:white
+    
+}
+
+body > header{ /* this are the same(both refer to header)*/
+    background-color: rgba(212, 168, 168, 0.595);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 9vh;
+   
+}
+#nav-ul{
+    display: flex;
+}
+#nav-ul>li{
+    padding: 10px;
+    margin:12px;
+
+}
+body>header>nav>ul{
+    list-style:none;
+    text-decoration: none;
+}
+
+.navbutton{
+    color:black;
+    text-decoration: none;
+    padding: 12px; /*increases space around link to help us increase clickable size*/
+    border:1px solid white;
+    border-radius:9%;/*determines how round the border*/
+}
+
+body>main article{
+    width: 70%;
+    margin:auto;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+#main-content>div{
+    width:70%;
+}
+
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+body> footer{
+    background-color: rgba(212, 168, 168, 0.595);
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+}
+#footers-ul{
+    display: flex;
+    list-style: none;
+}
+#footers-ul>div>li{
+    margin-left: 50px;
+}
+
+#footers-ul>div>li>a{
+    text-decoration: none;
+    color: rgb(94, 20, 20);
+}
